@@ -1,0 +1,50 @@
+.container-fluid.navbar {
+  z-index: 1;
+  height: 50px;
+  font: arial;
+  background-color: #f8f9fa;
+  padding: 5px;
+  justify-content: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
+}
+
+.btn.btn-light {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+.navbar {
+  overflow: hidden;
+}
+
+.navbar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.navbar .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .navbar a:not(:first-child) {display: none;}
+  .navbar a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navbar.responsive {position: relative;}
+  .navbar.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navbar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
