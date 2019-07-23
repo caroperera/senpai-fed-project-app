@@ -1,0 +1,61 @@
+.container.portfolio {
+  background-color: white;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
+  border-radius: .25rem;
+}
+
+.container-fluid.trabajos {
+  padding: 40px;
+}
+
+.portfolio {
+
+  padding: 0px;
+  margin-top: 30px;
+  margin-bottom: 60px;
+  margin-left:100px;
+  margin-right:100px;
+}
+
+.card.portfolio {
+  margin: 30px;
+  border: 0px;
+  font-size: 15px;
+}
+
+.titulo-ppal-form {
+  font-size: 25px;
+  text-align: center;
+  font-weight: 600;
+}
+
+
+
+.col.col-md-12.bg-full1 {
+  background-image: url("/assets/portfolio1.jpg");
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: .25rem;  
+  border-top-right-radius: .25rem;  
+  height: 300px;
+}
+
+.col.col-md-12.bg-full2 {
+  background-image: url("/assets/portfolio2.jpg");
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: .25rem;  
+  border-top-right-radius: .25rem;  
+  height: 300px;
+}
+
+.col.col-md-12.bg-full3 {
+  background-image: url("/assets/portfolio3.jpg");
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: .25rem;  
+  border-top-right-radius: .25rem;  
+  height: 300px;
+}
+

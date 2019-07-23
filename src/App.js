@@ -2,13 +2,10 @@ import React from 'react';
 import './App.css';
 import Header from './Header.js';
 import HomeSection from './HomeSection.js';
-import AboutMe from './AboutMe.js';
 import Portfolio from './Portfolio.js';
-import Articles from './Articles.js';
 import Contact from './Contact.js';
 import Footer from './Footer.js';
-
-
+  
 
 class App extends React.Component {
 
@@ -26,11 +23,6 @@ class App extends React.Component {
     });
   }
 
-  goToAboutMe = () => {
-    this.setState({
-      section: 2
-    });
-  }
 
   goToPortfolio = () => {
     this.setState({
@@ -38,37 +30,25 @@ class App extends React.Component {
     });
   }
 
-  goToArticles = () => {
-    this.setState({
-      section: 4
-    });
-  }
 
   goToContact = () => {
     this.setState({
-      section: 5
+      section: 4
     });
   }
 
 
   renderCurrentSection() {
     switch (this.state.section) {
-      case 5:
-        return (
-          <Contact />
-        );
       case 4:
         return (
-          <Articles />
+          <Contact />
         );
       case 3:
         return (
           <Portfolio />
         );
-      case 2:
-        return (
-          <AboutMe />
-        );
+      
       case 1:
       default:
         return <HomeSection />;
@@ -80,9 +60,7 @@ class App extends React.Component {
       <div>
         <Header
           goToHomeSection={this.goToHomeSection}
-          goToAboutMe={this.goToAboutMe}
           goToPortfolio={this.goToPortfolio} 
-          goToArticles={this.goToArticles}
           goToContact={this.goToContact} 
         />
         <main>
