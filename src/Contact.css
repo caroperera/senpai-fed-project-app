@@ -12,7 +12,7 @@
 }
   
 .col.col-xs-12.banner {
-  height: 100px;
+  height: 200px;
   background-image: url("/assets/bkg-header.jpg");
   background-size: cover;
   background-position: center;

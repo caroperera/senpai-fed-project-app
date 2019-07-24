@@ -6,10 +6,15 @@ class Portfolio extends React.Component {
 
   render() {
     return (
-
+<div>
+      <div className="container-fluid">
+        <div className="row">
+          <div class="col col-xs-12 banner-portfolio"></div>
+        </div>
+      </div>
 
       <div className="container-fluid trabajos">
-        <div className="titulo-ppal-form">Te presento algunos de mis trabajos:</div>
+        <div className="titulo-ppal-form">Portfolio</div>
         <div className="row">
 
           <div className="col col-m-6 col-s-12">
@@ -73,7 +78,7 @@ class Portfolio extends React.Component {
                       <br></br>
                       Se compone por jóvenes delegados de los hogares de Inau.
                       El objetivo del centro es romper esa barrera de prejuicios entre la sociedad y los chicos de Inau.
-                      Se trabajan los valores de confianza, cambio, compañerismo, perserverancia, lucha, solidaridad, juventud, entre otros.              
+                      Se trabajan los valores de confianza, cambio, compañerismo, perserverancia, lucha, solidaridad, juventud, entre otros.
 
                       Teniendo en cuenta el perfil de Alquimia, se elaboró un sistema de identidad que va acorde con su esencia y necesidades, partiendo de los conceptos de juventud, dinamismo y lucha.
                     </p>
@@ -83,7 +88,7 @@ class Portfolio extends React.Component {
             </div>
           </div>
 
-          
+          </div>
 
         </div>
       </div>

@@ -5,6 +5,13 @@
   border-radius: .25rem;
 }
 
+.container.portfolio:hover {
+  background-color: white;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.15), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+  border-radius: .25rem;
+}
+
 .container-fluid.trabajos {
   padding: 40px;
 }
@@ -30,7 +37,12 @@
   font-weight: 600;
 }
 
-
+.col.col-xs-12.banner-portfolio {
+  height: 200px;
+  background-image: url("/assets/banner-portfolio.jpg");
+  background-size: cover;
+  background-position: center;
+}
 
 .col.col-md-12.bg-full1 {
   background-image: url("/assets/portfolio1.jpg");

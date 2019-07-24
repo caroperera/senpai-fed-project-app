@@ -1,3 +1,11 @@
+OBJETIVO DEL PROYECTO:
+Concepto: Portfolio de trabajos personales
+Características principales: Secciones, home, contacto, listado de trabajos.
+Foco: Realizar un primer acercamiento a lo que espero sea mi portfolio en unos meses, luego de trabajado a fondo para llegar a un resultado óptimo. Para este entregable me enfoqué en pulir las propiedades del CSS, buscando incorporar las sombras, y los Hover, así como también la incorporación de los media query.
+Características: secciones, tarjetas con los trabajos, formulario de contacto.
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
